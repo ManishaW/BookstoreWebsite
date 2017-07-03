@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap E-commerce Templates</title>
+		<title>Imagine Bookstore</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -14,6 +14,8 @@
 		<!-- global styles -->
 		<link href="themes/css/flexslider.css" rel="stylesheet"/>
 		<link href="themes/css/main.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 		<!-- scripts -->
 		<script src="themes/js/jquery-1.7.2.min.js"></script>
@@ -33,76 +35,103 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">My Account</a></li>
-							<li><a href="cart.html">Your Cart</a></li> <!-- put icon here -->
+							<li><a href="cart.html"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a></li> <!-- put icon here -->
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div id="wrapper" class="container">
+			<div id="wrapper" class="container">
 			<section class="navbar main-menu">
+
 				<div class="navbar-inner main-menu">	
-				
-					
-					<nav id="menu" class="pull-right">
+				<div class="span4">
+				<nav id="menu" class="pull-left">
 						<ul>
-							<li><a href="./products.html">Top Selling</a>					
+							<li><a href="" style="font-size: 10pt">Best Selling</a>
+							<ul>						
+									<li><a href="">This month</a></li>
+									<li><a href="">This year</a></li>	
+									<li><a href="">All time</a></li>	
+							</ul>
 							</li>															
-							<li><a href="./products.html">New Releases</a></li>			
-							<li><a href="./products.html">Genres</a>
-								<ul>									
-									<li><a href="./products.html">Gifts and Tech</a></li>
-									<li><a href="./products.html">Ties and Hats</a></li>
-									<li><a href="./products.html">Cold Weather</a></li>
+							<li><a href="" style="font-size: 10pt">New Releases</a>
+							<ul>						
+									<li><a href="">This week</a></li>	
+									<li><a href="">This month</a></li>
+									<li><a href="">This year</a></li>	
+							</ul></li>	
+							<li><a href="" style="font-size: 10pt">Genres</a>
+								<ul>						
+									<li><a href="">Romance</a></li>
+									<li><a href="">Crime</a></li>
+									<li><a href="">Historical</a></li>
+									<li><a href="">Sci-fi</a></li>
+									<li><a href="">Mystery</a></li>
+									<li><a href="">Historical</a></li>
+									<li><a href="">Kids</a></li>
+									<li><a href="">Fantasy</a></li>
+									<li><a href="">Non-Fiction</a></li>
+									<li><a href="">Graphic Novel</a></li>			
+									<li><a href="">Biography</a></li>			
+
+
 								</ul>
 							</li>							
 						</ul>
 					</nav>
+				</div>			
+					<nav id="menu" class="pull-right">
+					 <div class="search" style="padding-top: 5px;padding-left: -10px">
+      <input type="text" class="searchTerm" placeholder="Search">
+       
+       <a href=""><i class="fa fa-search fa-2x"></i></a>
+ </div>
+ </nav>
 				</div>
-			</section>
+			</section>				
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
-				<h4><span>Shopping Cart</span></h4>
+			<img class="pageBanner" src="themes/images/pageBanner.jpeg" alt="New products" >
 			</section>
 			<section class="main-content">				
 				<div class="row">
-					<div class="span9">					
-						<h4 class="title"><span class="text"><strong>Your</strong> Cart</span></h4>
-						<table class="table table-striped">
+					<!-- <div class="span9">					 -->
+						<h4 class="title" align="center"><span class="text" style="font-size: 20pt; color: #2980B9;margin-left: 23px">Your Cart</span></h4>
+						<table class="table" style="font-size: 15px; margin-left: 20px">
 							<thead>
 								<tr>
 									<th>Remove</th>
 									<th>Image</th>
 									<th>Product Name</th>
+									<th>Author</th>
 									<th>Quantity</th>
-									<th>Unit Price</th>
 									<th>Total</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/ladies/9.jpg"></a></td>
-									<td>Fusce id molestie massa</td>
+									<td><input type="checkbox" style="transform: scale(2); margin-left: 20px" value="option1"></td>
+									<td><a href="book_details.html"><img alt="" src="themes/images/books1/1.jpg" height="375px" width="250px"></a></td>
+									<td>Fairy Tale Dreamer</td>
+									<td>Sophia Darling</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
-									<td>$2,350.00</td>
-									<td>$2,350.00</td>
+									<td>$14.25</td>
 								</tr>			  
 								<tr>
-									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/ladies/1.jpg"></a></td>
-									<td>Luctus quam ultrices rutrum</td>
+									<td><input type="checkbox" style="transform: scale(2); margin-left: 20px" value="option1"></td>
+									<td><a href="book_details.html"><img alt="" src="themes/images/books1/2.jpg" height="375px" width="250px"></a></td>
+									<td>Night Shade</td>
+									<td>Helen Harper</td>
 									<td><input type="text" placeholder="2" class="input-mini"></td>
-									<td>$1,150.00</td>
-									<td>$2,450.00</td>
+									<td>$15.99</td>
 								</tr>
 								<tr>
-									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/ladies/3.jpg"></a></td>
-									<td>Wuam ultrices rutrum</td>
+									<td><input type="checkbox" style="transform: scale(2); margin-left: 20px" value="option1"></td>
+									<td><a href="book_details.html"><img alt="" src="themes/images/books1/6.jpg" height="375px" width="250px"></a></td>
+									<td>Immortals</td>
+									<td>Danielle Starsmith</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
-									<td>$1,210.00</td>
-									<td>$1,123.00</td>
+									<td>$7.25</td>
 								</tr>
 								<tr>
 									<td>&nbsp;</td>
@@ -110,73 +139,38 @@
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
-									<td><strong>$3,600.00</strong></td>
+									<td><strong>$37.49</strong></td>
 								</tr>		  
 							</tbody>
 						</table>
-						<h4>What would you like to do next?</h4>
-						<p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
-						<label class="radio">
-							<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-							Use Coupon Code
-						</label>
-						<label class="radio">
-							<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-							Estimate Shipping &amp; Taxes
-						</label>
+						
 						<hr>
 						<p class="cart-total right">
-							<strong>Sub-Total</strong>:	$100.00<br>
-							<strong>Eco Tax (-2.00)</strong>: $2.00<br>
-							<strong>VAT (17.5%)</strong>: $17.50<br>
-							<strong>Total</strong>: $119.50<br>
+							<strong>Sub-Total</strong>:	$37.49<br>
+							<strong>Tax (13%)</strong>: $4.87<br>
+							<strong>Total</strong>: $42.36<br>
 						</p>
 						<hr/>
 						<p class="buttons center">				
-							<button class="btn" type="button">Update</button>
+							<button class="btn" type="button">Remove</button>
 							<button class="btn" type="button">Continue</button>
 							<button class="btn btn-inverse" type="submit" id="checkout">Checkout</button>
 						</p>					
 					</div>
 					
-				</div>
+				<!-- </div> -->
 			</section>			
-			<section id="footer-bar">
+				<section id="footer-bar">
 				<div class="row">
-					<div class="span3">
-						<h4>Navigation</h4>
-						<ul class="nav">
-							<li><a href="./index.html">Homepage</a></li>  
-							<li><a href="./about.html">About Us</a></li>
-							<li><a href="./contact.html">Contact Us</a></li>
-							<li><a href="./cart.html">Your Cart</a></li>						
-						</ul>					
-					</div>
-					<div class="span4">
-						<h4>My Account</h4>
-						<ul class="nav">
-							<li><a href="#">My Account</a></li>
-							<li><a href="#">Order History</a></li>
-							<li><a href="#">Wish List</a></li>
-							<li><a href="#">Newsletter</a></li>
-						</ul>
-					</div>
+					
 					<div class="span5">
 						<p class="logo"><img src="themes/images/logo.png" class="site_logo" alt=""></p>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the  Lorem Ipsum has been the industry's standard dummy text ever since the you.</p>
-						<br/>
-						<span class="social_icons">
-							<a class="facebook" href="#">Facebook</a>
-							<a class="twitter" href="#">Twitter</a>
-							<a class="skype" href="#">Skype</a>
-							<a class="vimeo" href="#">Vimeo</a>
-						</span>
+						<p>All the books you can imagine - in one place. Shop now!</p>
+						
 					</div>					
 				</div>	
 			</section>
-			<section id="copyright">
-				<span>Copyright 2013 bootstrappage template  All right reserved.</span>
-			</section>
+			
 		</div>
 		<script src="themes/js/common.js"></script>
 		<script>

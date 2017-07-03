@@ -431,13 +431,14 @@ section.navbar{
 	left:0;
 }
 .product-box:hover{
-	background-color:#58D68D;
+	background-color: #5DADE2;
+	/*background-color:#58D68D;
 	-webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
     transition: all 0.2s linear;
-	box-shadow: 0px 0px 5px #ccc;
+	box-shadow: 0px 0px 5px #ccc;*/
 }
 .product-box:hover a{
 	color:#fff !important;
@@ -759,7 +760,7 @@ section.our_client .row{
 		background-color:#f8f8f8;
 	}
 	.product-box:hover a{
-		color:#333 !important;
+		/*color:#333 !important;*/
 	}
 	#menu ul{display: none;}
 	.navbar-inner.main-menu a.logo{
